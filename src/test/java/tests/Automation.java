@@ -98,7 +98,7 @@ public class Automation extends BaseClass{
 //
 //		MobileElement discountPrice = driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.view.ViewGroup[1]/android.widget.TextView[3]"));
 //		if ((discountPrice.getText().toLowerCase().contains("₹")) && (discountPrice.isDisplayed() == true)){
-//			System.out.println("Dicount Price is OK: Test Passed");
+//			System.out.println("Discount Price is OK: Test Passed");
 //			Thread.sleep(3000);
 //		}
 //
