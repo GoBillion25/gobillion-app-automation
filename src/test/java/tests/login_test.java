@@ -19,14 +19,14 @@ public class login_test extends BaseClass{
 		driver.findElement(By.id("com.gobillion.android.commerce.dev:id/loginPhone")).click();
 		Thread.sleep(3000);
 		//Enters Mobile No
-		driver.findElement(By.id("com.gobillion.android.commerce.dev:id/loginPhone")).sendKeys("6001600256");
+		driver.findElement(By.id("com.gobillion.android.commerce.dev:id/loginPhone")).sendKeys("Enter the phone no. here");
 		Thread.sleep(3000);
 		System.out.println("Phone Number Entered Successfully");
 		//click for entering password
 		driver.findElement(By.id("com.gobillion.android.commerce.dev:id/loginPassword")).click();
 		Thread.sleep(3000);
 		//Enters Password
-		driver.findElement(By.id("com.gobillion.android.commerce.dev:id/loginPassword")).sendKeys("Abc123###");
+		driver.findElement(By.id("com.gobillion.android.commerce.dev:id/loginPassword")).sendKeys("Enter a valid password");
 		Thread.sleep(3000);
 		System.out.println("Password entered successfully");
 		//press android back button for hiding keyboard
