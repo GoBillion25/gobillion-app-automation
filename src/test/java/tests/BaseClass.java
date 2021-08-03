@@ -27,10 +27,10 @@ public class BaseClass {
 			DesiredCapabilities caps = new DesiredCapabilities();
 			caps.setCapability(MobileCapabilityType.NO_RESET, "true");
 			caps.setCapability(MobileCapabilityType.FULL_RESET, "false");
-			caps.setCapability(MobileCapabilityType.DEVICE_NAME, "ASUS_X00TD");
-			caps.setCapability(MobileCapabilityType.UDID, "J9AAGF00Z133AVP");
+			caps.setCapability(MobileCapabilityType.DEVICE_NAME, "Mi 11X Pro");
+			caps.setCapability(MobileCapabilityType.UDID, "317cb9dd");
 			caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
-			caps.setCapability(MobileCapabilityType.PLATFORM_VERSION, "9");
+			caps.setCapability(MobileCapabilityType.PLATFORM_VERSION, "11");
 			caps.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, "70");
 
 			caps.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "com.gobillion.android.commerce.dev");
